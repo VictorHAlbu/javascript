@@ -11,7 +11,7 @@ function handleMouseMove(event) {
     console.log(clientY, clientX);
 }
 */
-//DESESTRUTURANDO 2 POR PARÃMETRO DIRETO
+//DESESTRUTURANDO 2 POR PARÂMETRO DIRETO
 function handleMouseMove({clientX, clientY}) {
     console.log(clientY, clientX);
 }
