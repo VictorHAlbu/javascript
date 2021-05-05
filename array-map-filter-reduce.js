@@ -14,8 +14,6 @@ const precosNumero = precosFiltro.map(preco =>
      Number(preco.replace("R$ ", ""))
 );
 
-const total = precosNumero.reduce(function(acc, atual) {
-    return acc + atual;
-});
+const total = precosNumero.reduce((acc, atual) => acc + atual);
 
 console.log(total);
